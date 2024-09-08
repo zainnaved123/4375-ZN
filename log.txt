@@ -1,1 +1,29 @@
+max iterations = 2000
+tol = 1e-3
+r2 = 0.3639965533816135
 
+max iterations = 2000
+tol = 1e-3
+learning rate = constant
+r2 = 0.3703767360102568
+
+max iterations = 3000
+tol = 1e-3
+learning rate = constant
+r2 = 0.3737209494048839
+
+max iterations = 3000
+tol = 1e-3
+learning rate = invscaling
+r2 = 0.3737209494048839
+
+max iterations = 3000
+tol = 1e-4
+learning rate = constant
+r2 = 0.21705701253414522
+
+sgd = SGDRegressor(max_iter=3000, tol=1e-3, learning_rate='constant', eta0=0.001)
+0.3625362665581052
+
+sgd = SGDRegressor(max_iter=3000, tol=1e-3, learning_rate='constant', eta0=0.0001)
+0.3660103839501969
