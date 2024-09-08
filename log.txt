@@ -27,3 +27,6 @@ sgd = SGDRegressor(max_iter=3000, tol=1e-3, learning_rate='constant', eta0=0.001
 
 sgd = SGDRegressor(max_iter=3000, tol=1e-3, learning_rate='constant', eta0=0.0001)
 0.3660103839501969
+
+sgd = SGDRegressor(max_iter=3000, tol=1e-3, learning_rate='constant', eta0=0.01)
+0.3748745124297991
